@@ -7,11 +7,9 @@
 #include <stdlib.h>
 #include <string.h>
 #include <dirent.h>
+#include <string.h>
+#include <stdbool.h>
 
 #define PATH_TCB    "/etc/tcb/"
-
-static void print_shadow(struct spwd *sp);
-void shadow_keys(char *path);
-void print_shadow_tcb(char *path);
 
 #endif // READ_TCB_H
